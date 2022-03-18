@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Jasper Jhay Sanchez"/>
+        <meta neme="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Exercise 9 Forms</title>
+    </head>
+    <body>
+        <font face="arial">
+            <blockquote>
+                <h1><center>Sign up now!</center></h1>
+        <form>
+            Fields marked (*) are required
+            <fieldset>
+                    <legend>Your Details</legend>
+                    Name * <input type="text" size="30" max="25" name="Name" title="" placeholder="Full name" /><br />
+                    Email * <input type="email" size="25"  name="email" title="" placeholder="email@provider.com" /><br />
+                    Phone * <input type="number" size="15" max="" name="Contact Number" title="" placeholder="Please enter an eleven number"/><br />
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Address</legend>
+                Address 1 * <input type="text" size="30" max="25" name="Address" title="" placeholder="House/Apt. Number and Street" /><br />
+                District/Barangay * <input type="text" size="30" max="25" name="Barangay" title="" placeholder="Barangay" /><br />
+                City * <select>
+                    <option value="Baguio City">Baguio City</option>
+                    <option value="Manila">Manila</option>
+                    <option value="New York">New York City</option>
+                  </select> <br />
+                Postal Code * <input type="number" size="15" max="" name="Contact Number" title="" placeholder="Postal code"/><br />
+                Province * <select>
+                    <option value="Nueva Vizcaya">Nueva Vizcaya</option>
+                    <option value="Benguet">Benguet</option>
+                    <option value="Albay">Albay</option>
+                  </select> <br />
+            </fieldset>
+            <fieldset>
+                <legend>Membership Information</legend>
+                Username * <input type="text" size="30" max="25" name="Name" title="" placeholder="At least 8 characters" /><br />
+                Password * <input type="password" size="30" max="25" name="Name" title="" placeholder="At least 8 characters" /><br />
+                Magazine Subscriptions * <br>					
+                <input type="checkbox" name="car" value="f"> PC Magazine<br>
+                <input type="checkbox" name="car" value="b"> Wired<br>
+                <input type="checkbox" name="car" value="p"> Computerworld<br>
+                <input type="checkbox" name="car" value="p"> I don't Subscribe<br>
+                <input type="checkbox" name="car" value="other"> Other		
+            </fieldset>
+            <input type="submit" onclick="alert('Thanks, again!')" value=" Sign up ">
+        </form>
+    </blockquote>
+    </font>
+    </body>

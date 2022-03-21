@@ -1,0 +1,25 @@
+body{
+    background-color: #121212;
+}
+h2{
+    color: rgb(98, 250, 255);
+    font-family: helvetica;
+}
+#h1{
+    color:rgb(255, 75, 75);
+    font-family: helvetica;
+    font-size: 75px;
+    text-align: center;
+}
+p, li{
+    color: rgb(160, 160, 160);
+    font-family: helvetica;
+}
+h3, h4{
+    color: rgb(253, 255, 113);
+    font-family: helvetica;
+}
+a{
+    color:rgb(77, 184, 255);
+    font-family: helvetica;
+}

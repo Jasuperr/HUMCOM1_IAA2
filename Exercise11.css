@@ -1,0 +1,48 @@
+html{
+font-family : arial;
+position:relative
+}
+img{
+position:absolute;
+width:150px;
+height:150px;
+margin:20px;
+}
+nav{
+    position:absolute;
+    margin:20px;
+    height:150px;
+    width:545px;
+    left:150px;
+    border-style: solid;
+}
+.article{
+    position:absolute;
+    height: 800px;
+    width: 650px;
+    top: 200px;
+    margin:20px;
+    padding:20px;
+    border-style:solid;
+}
+footer{
+    position:absolute;
+    top: 1100px;
+    height:100px;
+    width: 650px;
+    border-style:solid;
+    margin:20px;
+    padding:20px;
+    text-align: center;
+}
+section{
+    padding:50px;
+    margin:20px;
+    border-style:solid;
+}
+.h1{
+    position: relative;
+    text-align: center;
+    margin:50px;
+    bottom:10px;
+}

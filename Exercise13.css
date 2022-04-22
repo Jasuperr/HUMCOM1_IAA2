@@ -1,0 +1,63 @@
+div.one{
+    background-color: black;
+    height:120px;
+    padding: 10px;
+    margin: 10px;
+}
+div.onepointfive{
+    background-color: black;
+    height:120px;
+    padding: 10px;
+    margin: 10px;
+}
+div.two{
+    background-color: grey;
+    height:220px;
+    padding:10px;
+    margin: 10px;
+}
+div.three{
+    background-color: black;
+    height:180px;
+    padding:10px;
+    margin: 10px;
+}
+div.threepointfive{
+    background-color: black;
+    height:180px;
+    padding:10px;
+    margin: 10px;
+}
+div.threepointseven{
+    background-color: black;
+    height:180px;
+    padding:10px;
+    margin: 10px;
+}
+div.four{
+    background-color: grey;
+    height:60px;
+    padding:10px;
+    margin: 10px;
+}
+div.five{
+    background-color: grey;
+    height:60px;
+    padding:10px;
+    margin: 10px;
+}
+@media all and (max-width="320px"){
+}
+@media all and (max-width="768px"){
+    div.four{
+        float: left;
+        width:45%
+    }
+    div.five{
+        float: right;
+        width:45%
+    }
+}
+@media all and (max-width="1024px"){
+}
+

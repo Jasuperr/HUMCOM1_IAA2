@@ -1,0 +1,29 @@
+body{
+    background-color: #1F1F1f;
+    font-family: arial;
+    color: #6F6F6F;
+}
+nav{
+    background-color: rgb(83, 83, 83);
+    height: 150px;
+}
+header{
+    color:white;
+    text-align: center;
+}
+h2{
+    color:white;
+}
+footer{
+    background-color: #1d2429;
+    position:absolute;
+    top: 1450px;
+    height: 200px;
+    width:100%;
+    align-items: center;
+    color:grey;
+}
+.a{
+    position:relative;
+    top:100px;
+}

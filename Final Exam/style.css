@@ -1,0 +1,107 @@
+*{
+    font-family: 'arial';
+    margin:0;
+}
+#header {
+    padding:20px;
+    text-align: left;
+    background-color: #0f0f0f;
+    color:grey;
+}
+#headerimg{
+    width:20%;
+}
+#headerh1{
+    margin-bottom: 20px;
+}
+#navbar {
+    overflow:hidden;
+    background-color: grey;
+    position:sticky;
+}
+#navbara{
+    float:left;
+    display:block;
+    color:#0f0f0f;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;    
+}
+#section1 { 
+    text-align: center;
+    display: block;
+    background-color: #0f0f0f;
+    color:grey;
+    padding:60px;
+}
+#section1img{
+    width: 25%;
+    padding:20px;
+}
+#section1p{
+    margin-top: 20px;
+}
+#section2 {
+    display: block;
+    background-color: grey;
+    color: #0f0f0f;
+    text-align: left;
+    padding: 60px;
+}
+#section2h3{
+    margin-top:20px;
+}
+#section2p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#section2img{
+    float:right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+    padding: 30px;
+    color: #0f0f0f;
+}
+#footera{
+    margin-top:20px;
+    color: #0f0f0f;
+    text-decoration:none;
+}
+#gallery {
+    color:grey;
+    padding:60px;
+    text-align: center;
+    background-color: #0f0f0f;
+}
+#galleryimg{
+    margin-top: 50px;
+    width:250px;
+}
+#location{
+    background-color: grey;
+    color:#0f0f0f;
+    padding:60px;
+    text-align: center;
+}
+#locationimg{
+    margin-top: 50px;
+    width:800px;
+}
+#product{
+    background-color: #0f0f0f;
+    color:grey;
+    text-align: center;
+    padding: 60px;
+}
+#productimg{
+    width:1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
